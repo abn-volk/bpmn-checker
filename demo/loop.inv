@@ -1,0 +1,4 @@
+context FlowNode
+    inv NoLoops:
+        Sequence{self}.closure(outgoing.targetRef)->exists(b | b<>self and Sequence{b}.closure(outgoing.targetRef)->includes(self)) = false
+        

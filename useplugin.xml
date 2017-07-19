@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?use version="4.2.0"?>
+<plugin name="BPMNChecker" version="0.1">
+	<actions>
+		<action label="BPMN Parser"
+			class="org.uet.bpmnchecker.actions.ActionParseBPMN"
+			tooltip="BPMN Parser"
+			menu="BPMNChecker plug-in"
+			menuitem="BPMN Parser"
+			toolbaritem="BPMN Parser"
+			id="org.uet.bpmnchecker.actions.ActionParseBPMN" 
+			icon="resources/bpmn.png">
+		</action>
+		<action label="Detect deadlock"
+			class="org.uet.bpmnchecker.actions.ActionDetectDeadlock"
+			tooltip="Detect deadlock"
+			menu="BPMNChecker plug-in"
+			menuitem="Detect deadlock"
+			toolbaritem="Detect deadlock"
+			id="org.uet.bpmnchecker.actions.ActionDetectDeadlock" 
+			icon="resources/dl.png">
+		</action>
+		<action label="Detect multiple termination"
+			class="org.uet.bpmnchecker.actions.ActionDetectMultipleTermination"
+			tooltip="Detect multiple termination"
+			menu="BPMNChecker plug-in"
+			menuitem="Detect multiple termination"
+			toolbaritem="Detect multiple termination"
+			id="org.uet.bpmnchecker.actions.ActionDetectMultipleTermination" 
+			icon="resources/mt.png">
+		</action>
+		<action label="Detect implicit gateway"
+			class="org.uet.bpmnchecker.actions.ActionDetectImplicitGateway"
+			tooltip="Detect implicit gateway"
+			menu="BPMNChecker plug-in"
+			menuitem="Detect implicit gateway"
+			toolbaritem="Detect implicit gateway"
+			id="org.uet.bpmnchecker.actions.ActionDetectImplicitGateway" 
+			icon="resources/ig.png">
+		</action>
+		<action label="Detect combined gateway"
+			class="org.uet.bpmnchecker.actions.ActionDetectCombinedGateway"
+			tooltip="Detect combined gateway"
+			menu="BPMNChecker plug-in"
+			menuitem="Detect combined gateway"
+			toolbaritem="Detect combined gateway"
+			id="org.uet.bpmnchecker.actions.ActionDetectCombinedGateway" 
+			icon="resources/cg.png">
+		</action>
+		<action label="Detect loop"
+			class="org.uet.bpmnchecker.actions.ActionDetectLoop"
+			tooltip="Detect loop"
+			menu="BPMNChecker plug-in"
+			menuitem="Detect loop"
+			toolbaritem="Detect loop"
+			id="org.uet.bpmnchecker.actions.ActionDetectLoop" 
+			icon="resources/lp.png">
+		</action>
+	</actions>
+</plugin>

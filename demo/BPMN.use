@@ -1,0 +1,131 @@
+model BPMN
+
+abstract class BaseElement
+attributes
+    id: String
+end
+
+abstract class FlowElement < BaseElement
+attributes
+    name: String
+    optional: Sequence(Boolean)
+end
+
+abstract class FlowNode < FlowElement
+attributes
+    isVisited: Boolean
+end
+
+abstract class Event < FlowNode
+end
+
+abstract class CatchEvent < Event
+end
+
+class StartEvent < CatchEvent
+attributes
+    isInterrupting: Boolean
+end
+
+abstract class ThrowEvent < Event
+end
+
+class EndEvent < ThrowEvent
+end
+
+class SequenceFlow < FlowElement
+attributes
+    isImmediate: Boolean
+operations
+    label() 
+    begin
+        self.sourceRef.isVisited := true;
+        if self.sourceRef.outgoing->size() = 1 then
+            self.optional := self.sourceRef.optional
+        else 
+            begin
+                if self.sourceRef.oclIsTypeOf(ExclusiveGateway) or self.sourceRef.oclIsTypeOf(InclusiveGateway) then
+                    self.optional := self.sourceRef.optional->append(true)
+                else
+                    self.optional := self.sourceRef.optional->append(false)
+                end;
+            end;
+        end;
+        
+        
+        if self.targetRef.incoming->size() = 1 then 
+            self.targetRef.optional := self.optional
+        else 
+            if self.targetRef.optional->isEmpty() then
+                begin
+                    if self.optional->size() <= 1 then
+                        self.targetRef.optional := Sequence{}
+                    else 
+                        self.targetRef.optional := self.optional->subSequence(1, self.sourceRef.optional->size()-1);
+                    end;
+                end;
+            end;
+        end;
+    
+        
+        if self.targetRef.isVisited = false then
+            for flow in self.targetRef.outgoing do
+                flow.label()
+            end;
+        end;
+    end
+end
+
+abstract class Activity < FlowNode
+attributes
+    isForCompensation: Boolean
+    startQuantity: Integer
+    completionQuantity: Integer
+end
+
+class Task < Activity
+end
+
+abstract class Gateway < FlowNode
+end
+
+class ExclusiveGateway < Gateway
+end
+
+class InclusiveGateway < Gateway
+end
+
+class ParallelGateway < Gateway
+end 
+
+association IncomingFlow between
+    FlowNode[0..1] role targetRef
+    SequenceFlow[*] role incoming
+end
+
+association OutgoingFlow between
+    FlowNode[0..1] role sourceRef
+    SequenceFlow[*] role outgoing 
+end
+
+
+---------
+constraints
+
+context StartEvent
+    inv NoConnectionsToStartEvent:
+        self.incoming->isEmpty()
+
+context EndEvent
+    inv NoConnectionsToEndEvent:
+        self.outgoing->isEmpty()
+
+context FlowNode
+    inv AllNodesMustBeConnected:
+        self.incoming->isEmpty() = false or self.outgoing->isEmpty() = false
+        
+context Gateway
+    inv MustSplitMergeOrForkJoin:
+        self.incoming->size() > 1 or self.outgoing->size() > 1
+        
+        

@@ -1,0 +1,28 @@
+procedure attemptLoop() 
+    var s: StartEvent, e: EndEvent, ts: Sequence(Task),
+    f:SequenceFlow, sf: SequenceFlow, t1:Task, t2: Task,
+    x:Integer , y: Integer;
+begin
+    s:=Create(StartEvent);
+    e:=Create(EndEvent);
+    ts:=CreateN(Task, [25]);
+    for j: Integer in [Sequence{1..24}]
+    begin
+        f := Create(SequenceFlow);
+        Insert(OutgoingFlow, [ts->at(j)]  , [f]);
+        Insert(IncomingFlow, [ts->at(j+1)], [f]);
+    end;
+    f := Create(SequenceFlow);
+    Insert(OutgoingFlow, [s]        , [f]);
+    Insert(IncomingFlow, [ts->at(1)], [f]);
+    f := Create(SequenceFlow);
+    Insert(OutgoingFlow, [ts->at(25)], [f]);
+    Insert(IncomingFlow, [e]         , [f]);
+    x := Try([Sequence{2..25}]);
+    y := Try([Sequence{1..x-1}]);
+    t1 := [ts->at(x)];
+    t2 := [ts->at(y)];
+    sf := Create(SequenceFlow);
+    Insert(OutgoingFlow, [t1], [sf]);
+    Insert(IncomingFlow, [t2], [sf]);
+end;

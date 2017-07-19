@@ -1,0 +1,1410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagram_Layout version="13">
+  <diagramOptions>
+    <autolayout>false</autolayout>
+    <antialiasing>true</antialiasing>
+    <showassocnames>false</showassocnames>
+    <showattributes>false</showattributes>
+    <showmultiplicities>false</showmultiplicities>
+    <showoperations>false</showoperations>
+    <showrolenames>false</showrolenames>
+    <showgrid>false</showgrid>
+    <ShowStates>false</ShowStates>
+  </diagramOptions>
+  <node id="servicetask1" sizeCalculated="true" type="Object">
+    <name>servicetask1</name>
+    <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyFixed">
+      <x>165.3144987006425</x>
+      <y>94.27947297645437</y>
+    </strategy>
+    <hidden>false</hidden>
+  </node>
+  <node id="flow1" sizeCalculated="true" type="Object">
+    <name>flow1</name>
+    <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyFixed">
+      <x>234.0792176893916</x>
+      <y>149.30394183124145</y>
+    </strategy>
+    <hidden>false</hidden>
+  </node>
+  <node id="flow2" sizeCalculated="true" type="Object">
+    <name>flow2</name>
+    <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyFixed">
+      <x>229.10523898748204</x>
+      <y>46.16696692755614</y>
+    </strategy>
+    <hidden>false</hidden>
+  </node>
+  <node id="scripttask1" sizeCalculated="true" type="Object">
+    <name>scripttask1</name>
+    <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyFixed">
+      <x>525.9629486577636</x>
+      <y>102.0</y>
+    </strategy>
+    <hidden>false</hidden>
+  </node>
+  <node id="receivetask1" sizeCalculated="true" type="Object">
+    <name>receivetask1</name>
+    <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyFixed">
+      <x>349.87428827237227</x>
+      <y>17.0</y>
+    </strategy>
+    <hidden>false</hidden>
+  </node>
+  <node id="flow6" sizeCalculated="true" type="Object">
+    <name>flow6</name>
+    <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyFixed">
+      <x>32.127999985014185</x>
+      <y>92.41734040374905</y>
+    </strategy>
+    <hidden>false</hidden>
+  </node>
+  <node id="flow7" sizeCalculated="true" type="Object">
+    <name>flow7</name>
+    <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyFixed">
+      <x>427.86775612240046</x>
+      <y>43.90292459240101</y>
+    </strategy>
+    <hidden>false</hidden>
+  </node>
+  <node id="endevent1" sizeCalculated="true" type="Object">
+    <name>endevent1</name>
+    <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyFixed">
+      <x>575.0</x>
+      <y>196.13187093923278</y>
+    </strategy>
+    <hidden>false</hidden>
+  </node>
+  <node id="flow8" sizeCalculated="true" type="Object">
+    <name>flow8</name>
+    <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyFixed">
+      <x>422.51279513385646</x>
+      <y>157.36596854569666</y>
+    </strategy>
+    <hidden>false</hidden>
+  </node>
+  <node id="startevent1" sizeCalculated="true" type="Object">
+    <name>startevent1</name>
+    <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyFixed">
+      <x>28.680083599073896</x>
+      <y>29.004923242757513</y>
+    </strategy>
+    <hidden>false</hidden>
+  </node>
+  <node id="manualtask1" sizeCalculated="true" type="Object">
+    <name>manualtask1</name>
+    <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyFixed">
+      <x>315.3211247382119</x>
+      <y>176.04992346735617</y>
+    </strategy>
+    <hidden>false</hidden>
+  </node>
+  <node id="flow9" sizeCalculated="true" type="Object">
+    <name>flow9</name>
+    <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyFixed">
+      <x>567.9682252221119</x>
+      <y>159.6189791774559</y>
+    </strategy>
+    <hidden>false</hidden>
+  </node>
+  <edge type="BinaryEdge">
+    <source>receivetask1</source>
+    <target>flow7</target>
+    <name>OutgoingFlow</name>
+    <properties>
+      <edgeproperty
+        id="[OutgoingFlow : (outgoing:flow7, sourceRef:receivetask1)]::target::multiplicity"
+        sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+        <name>*</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <attached>[OutgoingFlow : (outgoing:flow7, sourceRef:receivetask1)]::WayPoint::1</attached>
+          <offset_x>8</offset_x>
+          <offset_y>8</offset_y>
+          <placement>BOTTOM</placement>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[OutgoingFlow : (outgoing:flow7, sourceRef:receivetask1)]::target::rolename"
+        sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+        <name>outgoing</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <attached>[OutgoingFlow : (outgoing:flow7, sourceRef:receivetask1)]::WayPoint::1</attached>
+          <offset_x>8</offset_x>
+          <offset_y>8</offset_y>
+          <placement>TOP</placement>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[OutgoingFlow : (outgoing:flow7, sourceRef:receivetask1)]::source::multiplicity"
+        sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+        <name>1</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <attached>[OutgoingFlow : (outgoing:flow7, sourceRef:receivetask1)]::WayPoint::0</attached>
+          <offset_x>8</offset_x>
+          <offset_y>8</offset_y>
+          <placement>BOTTOM</placement>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[OutgoingFlow : (outgoing:flow7, sourceRef:receivetask1)]::source::rolename"
+        sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+        <name>sourceRef</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <attached>[OutgoingFlow : (outgoing:flow7, sourceRef:receivetask1)]::WayPoint::0</attached>
+          <offset_x>8</offset_x>
+          <offset_y>8</offset_y>
+          <placement>TOP</placement>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[OutgoingFlow : (outgoing:flow7, sourceRef:receivetask1)]::AssociationName"
+        sizeCalculated="true" type="associationName" userDefined="false" visible="true">
+        <name>OutgoingFlow</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyInBetween">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <offsetX>0.0</offsetX>
+          <offsetY>-10.0</offsetY>
+          <related length="2">
+            <related0>[OutgoingFlow : (outgoing:flow7, sourceRef:receivetask1)]::WayPoint::0</related0>
+            <related1>[OutgoingFlow : (outgoing:flow7, sourceRef:receivetask1)]::WayPoint::1</related1>
+          </related>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+    </properties>
+    <waypoints>
+      <edgeproperty
+        id="[OutgoingFlow : (outgoing:flow7, sourceRef:receivetask1)]::WayPoint::0"
+        sizeCalculated="true" type="WayPoint" userDefined="false" visible="true">
+        <name>0</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyAttachedIntersection">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+        </strategy>
+        <id>0</id>
+        <specialid>1</specialid>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[OutgoingFlow : (outgoing:flow7, sourceRef:receivetask1)]::WayPoint::1"
+        sizeCalculated="true" type="WayPoint" userDefined="false" visible="true">
+        <name>1</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyAttachedIntersection">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+        </strategy>
+        <id>1</id>
+        <specialid>2</specialid>
+        <hidden>false</hidden>
+      </edgeproperty>
+    </waypoints>
+    <hidden>false</hidden>
+    <linkValue>[OutgoingFlow : (outgoing:flow7, sourceRef:receivetask1)]</linkValue>
+  </edge>
+  <edge type="BinaryEdge">
+    <source>manualtask1</source>
+    <target>flow8</target>
+    <name>OutgoingFlow</name>
+    <properties>
+      <edgeproperty
+        id="[OutgoingFlow : (outgoing:flow8, sourceRef:manualtask1)]::target::rolename"
+        sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+        <name>outgoing</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <attached>[OutgoingFlow : (outgoing:flow8, sourceRef:manualtask1)]::WayPoint::1</attached>
+          <offset_x>8</offset_x>
+          <offset_y>8</offset_y>
+          <placement>TOP</placement>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[OutgoingFlow : (outgoing:flow8, sourceRef:manualtask1)]::target::multiplicity"
+        sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+        <name>*</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <attached>[OutgoingFlow : (outgoing:flow8, sourceRef:manualtask1)]::WayPoint::1</attached>
+          <offset_x>8</offset_x>
+          <offset_y>8</offset_y>
+          <placement>BOTTOM</placement>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[OutgoingFlow : (outgoing:flow8, sourceRef:manualtask1)]::source::rolename"
+        sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+        <name>sourceRef</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <attached>[OutgoingFlow : (outgoing:flow8, sourceRef:manualtask1)]::WayPoint::0</attached>
+          <offset_x>8</offset_x>
+          <offset_y>8</offset_y>
+          <placement>TOP</placement>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[OutgoingFlow : (outgoing:flow8, sourceRef:manualtask1)]::source::multiplicity"
+        sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+        <name>1</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <attached>[OutgoingFlow : (outgoing:flow8, sourceRef:manualtask1)]::WayPoint::0</attached>
+          <offset_x>8</offset_x>
+          <offset_y>8</offset_y>
+          <placement>BOTTOM</placement>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[OutgoingFlow : (outgoing:flow8, sourceRef:manualtask1)]::AssociationName"
+        sizeCalculated="true" type="associationName" userDefined="false" visible="true">
+        <name>OutgoingFlow</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyInBetween">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <offsetX>0.0</offsetX>
+          <offsetY>-10.0</offsetY>
+          <related length="2">
+            <related0>[OutgoingFlow : (outgoing:flow8, sourceRef:manualtask1)]::WayPoint::0</related0>
+            <related1>[OutgoingFlow : (outgoing:flow8, sourceRef:manualtask1)]::WayPoint::1</related1>
+          </related>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+    </properties>
+    <waypoints>
+      <edgeproperty
+        id="[OutgoingFlow : (outgoing:flow8, sourceRef:manualtask1)]::WayPoint::0"
+        sizeCalculated="true" type="WayPoint" userDefined="false" visible="true">
+        <name>0</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyAttachedIntersection">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+        </strategy>
+        <id>0</id>
+        <specialid>1</specialid>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[OutgoingFlow : (outgoing:flow8, sourceRef:manualtask1)]::WayPoint::1"
+        sizeCalculated="true" type="WayPoint" userDefined="false" visible="true">
+        <name>1</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyAttachedIntersection">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+        </strategy>
+        <id>1</id>
+        <specialid>2</specialid>
+        <hidden>false</hidden>
+      </edgeproperty>
+    </waypoints>
+    <hidden>false</hidden>
+    <linkValue>[OutgoingFlow : (outgoing:flow8, sourceRef:manualtask1)]</linkValue>
+  </edge>
+  <edge type="BinaryEdge">
+    <source>scripttask1</source>
+    <target>flow9</target>
+    <name>OutgoingFlow</name>
+    <properties>
+      <edgeproperty
+        id="[OutgoingFlow : (outgoing:flow9, sourceRef:scripttask1)]::target::rolename"
+        sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+        <name>outgoing</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <attached>[OutgoingFlow : (outgoing:flow9, sourceRef:scripttask1)]::WayPoint::1</attached>
+          <offset_x>8</offset_x>
+          <offset_y>8</offset_y>
+          <placement>TOP</placement>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[OutgoingFlow : (outgoing:flow9, sourceRef:scripttask1)]::target::multiplicity"
+        sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+        <name>*</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <attached>[OutgoingFlow : (outgoing:flow9, sourceRef:scripttask1)]::WayPoint::1</attached>
+          <offset_x>8</offset_x>
+          <offset_y>8</offset_y>
+          <placement>BOTTOM</placement>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[OutgoingFlow : (outgoing:flow9, sourceRef:scripttask1)]::source::multiplicity"
+        sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+        <name>1</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <attached>[OutgoingFlow : (outgoing:flow9, sourceRef:scripttask1)]::WayPoint::0</attached>
+          <offset_x>8</offset_x>
+          <offset_y>8</offset_y>
+          <placement>BOTTOM</placement>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[OutgoingFlow : (outgoing:flow9, sourceRef:scripttask1)]::source::rolename"
+        sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+        <name>sourceRef</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <attached>[OutgoingFlow : (outgoing:flow9, sourceRef:scripttask1)]::WayPoint::0</attached>
+          <offset_x>8</offset_x>
+          <offset_y>8</offset_y>
+          <placement>TOP</placement>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[OutgoingFlow : (outgoing:flow9, sourceRef:scripttask1)]::AssociationName"
+        sizeCalculated="true" type="associationName" userDefined="false" visible="true">
+        <name>OutgoingFlow</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyInBetween">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <offsetX>0.0</offsetX>
+          <offsetY>-10.0</offsetY>
+          <related length="2">
+            <related0>[OutgoingFlow : (outgoing:flow9, sourceRef:scripttask1)]::WayPoint::0</related0>
+            <related1>[OutgoingFlow : (outgoing:flow9, sourceRef:scripttask1)]::WayPoint::1</related1>
+          </related>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+    </properties>
+    <waypoints>
+      <edgeproperty
+        id="[OutgoingFlow : (outgoing:flow9, sourceRef:scripttask1)]::WayPoint::0"
+        sizeCalculated="true" type="WayPoint" userDefined="false" visible="true">
+        <name>0</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyAttachedIntersection">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+        </strategy>
+        <id>0</id>
+        <specialid>1</specialid>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[OutgoingFlow : (outgoing:flow9, sourceRef:scripttask1)]::WayPoint::1"
+        sizeCalculated="true" type="WayPoint" userDefined="false" visible="true">
+        <name>1</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyAttachedIntersection">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+        </strategy>
+        <id>1</id>
+        <specialid>2</specialid>
+        <hidden>false</hidden>
+      </edgeproperty>
+    </waypoints>
+    <hidden>false</hidden>
+    <linkValue>[OutgoingFlow : (outgoing:flow9, sourceRef:scripttask1)]</linkValue>
+  </edge>
+  <edge type="BinaryEdge">
+    <source>scripttask1</source>
+    <target>flow7</target>
+    <name>IncomingFlow</name>
+    <properties>
+      <edgeproperty
+        id="[IncomingFlow : (incoming:flow7, targetRef:scripttask1)]::target::multiplicity"
+        sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+        <name>*</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <attached>[IncomingFlow : (incoming:flow7, targetRef:scripttask1)]::WayPoint::1</attached>
+          <offset_x>8</offset_x>
+          <offset_y>8</offset_y>
+          <placement>BOTTOM</placement>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[IncomingFlow : (incoming:flow7, targetRef:scripttask1)]::target::rolename"
+        sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+        <name>incoming</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <attached>[IncomingFlow : (incoming:flow7, targetRef:scripttask1)]::WayPoint::1</attached>
+          <offset_x>8</offset_x>
+          <offset_y>8</offset_y>
+          <placement>TOP</placement>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[IncomingFlow : (incoming:flow7, targetRef:scripttask1)]::source::rolename"
+        sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+        <name>targetRef</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <attached>[IncomingFlow : (incoming:flow7, targetRef:scripttask1)]::WayPoint::0</attached>
+          <offset_x>8</offset_x>
+          <offset_y>8</offset_y>
+          <placement>TOP</placement>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[IncomingFlow : (incoming:flow7, targetRef:scripttask1)]::source::multiplicity"
+        sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+        <name>1</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <attached>[IncomingFlow : (incoming:flow7, targetRef:scripttask1)]::WayPoint::0</attached>
+          <offset_x>8</offset_x>
+          <offset_y>8</offset_y>
+          <placement>BOTTOM</placement>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[IncomingFlow : (incoming:flow7, targetRef:scripttask1)]::AssociationName"
+        sizeCalculated="true" type="associationName" userDefined="false" visible="true">
+        <name>IncomingFlow</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyInBetween">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <offsetX>0.0</offsetX>
+          <offsetY>-10.0</offsetY>
+          <related length="2">
+            <related0>[IncomingFlow : (incoming:flow7, targetRef:scripttask1)]::WayPoint::0</related0>
+            <related1>[IncomingFlow : (incoming:flow7, targetRef:scripttask1)]::WayPoint::1</related1>
+          </related>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+    </properties>
+    <waypoints>
+      <edgeproperty
+        id="[IncomingFlow : (incoming:flow7, targetRef:scripttask1)]::WayPoint::0"
+        sizeCalculated="true" type="WayPoint" userDefined="false" visible="true">
+        <name>0</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyAttachedIntersection">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+        </strategy>
+        <id>0</id>
+        <specialid>1</specialid>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[IncomingFlow : (incoming:flow7, targetRef:scripttask1)]::WayPoint::1"
+        sizeCalculated="true" type="WayPoint" userDefined="false" visible="true">
+        <name>1</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyAttachedIntersection">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+        </strategy>
+        <id>1</id>
+        <specialid>2</specialid>
+        <hidden>false</hidden>
+      </edgeproperty>
+    </waypoints>
+    <hidden>false</hidden>
+    <linkValue>[IncomingFlow : (incoming:flow7, targetRef:scripttask1)]</linkValue>
+  </edge>
+  <edge type="BinaryEdge">
+    <source>servicetask1</source>
+    <target>flow2</target>
+    <name>OutgoingFlow</name>
+    <properties>
+      <edgeproperty
+        id="[OutgoingFlow : (outgoing:flow2, sourceRef:servicetask1)]::target::rolename"
+        sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+        <name>outgoing</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <attached>[OutgoingFlow : (outgoing:flow2, sourceRef:servicetask1)]::WayPoint::1</attached>
+          <offset_x>8</offset_x>
+          <offset_y>8</offset_y>
+          <placement>TOP</placement>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[OutgoingFlow : (outgoing:flow2, sourceRef:servicetask1)]::target::multiplicity"
+        sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+        <name>*</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <attached>[OutgoingFlow : (outgoing:flow2, sourceRef:servicetask1)]::WayPoint::1</attached>
+          <offset_x>8</offset_x>
+          <offset_y>8</offset_y>
+          <placement>BOTTOM</placement>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[OutgoingFlow : (outgoing:flow2, sourceRef:servicetask1)]::source::multiplicity"
+        sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+        <name>1</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <attached>[OutgoingFlow : (outgoing:flow2, sourceRef:servicetask1)]::WayPoint::0</attached>
+          <offset_x>8</offset_x>
+          <offset_y>8</offset_y>
+          <placement>BOTTOM</placement>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[OutgoingFlow : (outgoing:flow2, sourceRef:servicetask1)]::source::rolename"
+        sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+        <name>sourceRef</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <attached>[OutgoingFlow : (outgoing:flow2, sourceRef:servicetask1)]::WayPoint::0</attached>
+          <offset_x>8</offset_x>
+          <offset_y>8</offset_y>
+          <placement>TOP</placement>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[OutgoingFlow : (outgoing:flow2, sourceRef:servicetask1)]::AssociationName"
+        sizeCalculated="true" type="associationName" userDefined="false" visible="true">
+        <name>OutgoingFlow</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyInBetween">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <offsetX>0.0</offsetX>
+          <offsetY>-10.0</offsetY>
+          <related length="2">
+            <related0>[OutgoingFlow : (outgoing:flow2, sourceRef:servicetask1)]::WayPoint::0</related0>
+            <related1>[OutgoingFlow : (outgoing:flow2, sourceRef:servicetask1)]::WayPoint::1</related1>
+          </related>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+    </properties>
+    <waypoints>
+      <edgeproperty
+        id="[OutgoingFlow : (outgoing:flow2, sourceRef:servicetask1)]::WayPoint::0"
+        sizeCalculated="true" type="WayPoint" userDefined="true" visible="true">
+        <name>0</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyRelativeToCorner">
+          <userOffsetX>100.27168555822698</userOffsetX>
+          <userOffsetY>-169.0</userOffsetY>
+          <basisDeltaX>ABSOLUTE</basisDeltaX>
+          <deltaX>0.0</deltaX>
+          <maxDeltaX>1.7976931348623157E308</maxDeltaX>
+          <basisDeltaY>ABSOLUTE</basisDeltaY>
+          <deltaY>0.0</deltaY>
+          <maxDeltaY>1.7976931348623157E308</maxDeltaY>
+          <corner>NORTH_WEST</corner>
+          <relativeNodeId>servicetask1</relativeNodeId>
+        </strategy>
+        <id>0</id>
+        <specialid>1</specialid>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[OutgoingFlow : (outgoing:flow2, sourceRef:servicetask1)]::WayPoint::1"
+        sizeCalculated="true" type="WayPoint" userDefined="false" visible="true">
+        <name>1</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyAttachedIntersection">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+        </strategy>
+        <id>1</id>
+        <specialid>2</specialid>
+        <hidden>false</hidden>
+      </edgeproperty>
+    </waypoints>
+    <hidden>false</hidden>
+    <linkValue>[OutgoingFlow : (outgoing:flow2, sourceRef:servicetask1)]</linkValue>
+  </edge>
+  <edge type="BinaryEdge">
+    <source>receivetask1</source>
+    <target>flow2</target>
+    <name>IncomingFlow</name>
+    <properties>
+      <edgeproperty
+        id="[IncomingFlow : (incoming:flow2, targetRef:receivetask1)]::target::rolename"
+        sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+        <name>incoming</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <attached>[IncomingFlow : (incoming:flow2, targetRef:receivetask1)]::WayPoint::1</attached>
+          <offset_x>8</offset_x>
+          <offset_y>8</offset_y>
+          <placement>TOP</placement>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[IncomingFlow : (incoming:flow2, targetRef:receivetask1)]::target::multiplicity"
+        sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+        <name>*</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <attached>[IncomingFlow : (incoming:flow2, targetRef:receivetask1)]::WayPoint::1</attached>
+          <offset_x>8</offset_x>
+          <offset_y>8</offset_y>
+          <placement>BOTTOM</placement>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[IncomingFlow : (incoming:flow2, targetRef:receivetask1)]::source::multiplicity"
+        sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+        <name>1</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <attached>[IncomingFlow : (incoming:flow2, targetRef:receivetask1)]::WayPoint::0</attached>
+          <offset_x>8</offset_x>
+          <offset_y>8</offset_y>
+          <placement>BOTTOM</placement>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[IncomingFlow : (incoming:flow2, targetRef:receivetask1)]::source::rolename"
+        sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+        <name>targetRef</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <attached>[IncomingFlow : (incoming:flow2, targetRef:receivetask1)]::WayPoint::0</attached>
+          <offset_x>8</offset_x>
+          <offset_y>8</offset_y>
+          <placement>TOP</placement>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[IncomingFlow : (incoming:flow2, targetRef:receivetask1)]::AssociationName"
+        sizeCalculated="true" type="associationName" userDefined="false" visible="true">
+        <name>IncomingFlow</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyInBetween">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <offsetX>0.0</offsetX>
+          <offsetY>-10.0</offsetY>
+          <related length="2">
+            <related0>[IncomingFlow : (incoming:flow2, targetRef:receivetask1)]::WayPoint::0</related0>
+            <related1>[IncomingFlow : (incoming:flow2, targetRef:receivetask1)]::WayPoint::1</related1>
+          </related>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+    </properties>
+    <waypoints>
+      <edgeproperty
+        id="[IncomingFlow : (incoming:flow2, targetRef:receivetask1)]::WayPoint::0"
+        sizeCalculated="true" type="WayPoint" userDefined="false" visible="true">
+        <name>0</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyAttachedIntersection">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+        </strategy>
+        <id>0</id>
+        <specialid>1</specialid>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[IncomingFlow : (incoming:flow2, targetRef:receivetask1)]::WayPoint::1"
+        sizeCalculated="true" type="WayPoint" userDefined="true" visible="true">
+        <name>1</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyRelativeToCorner">
+          <userOffsetX>-120.0666992254927</userOffsetX>
+          <userOffsetY>-71.0</userOffsetY>
+          <basisDeltaX>ABSOLUTE</basisDeltaX>
+          <deltaX>0.0</deltaX>
+          <maxDeltaX>1.7976931348623157E308</maxDeltaX>
+          <basisDeltaY>ABSOLUTE</basisDeltaY>
+          <deltaY>0.0</deltaY>
+          <maxDeltaY>1.7976931348623157E308</maxDeltaY>
+          <corner>NORTH_WEST</corner>
+          <relativeNodeId>flow2</relativeNodeId>
+        </strategy>
+        <id>1</id>
+        <specialid>2</specialid>
+        <hidden>false</hidden>
+      </edgeproperty>
+    </waypoints>
+    <hidden>false</hidden>
+    <linkValue>[IncomingFlow : (incoming:flow2, targetRef:receivetask1)]</linkValue>
+  </edge>
+  <edge type="BinaryEdge">
+    <source>scripttask1</source>
+    <target>flow8</target>
+    <name>IncomingFlow</name>
+    <properties>
+      <edgeproperty
+        id="[IncomingFlow : (incoming:flow8, targetRef:scripttask1)]::target::rolename"
+        sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+        <name>incoming</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <attached>[IncomingFlow : (incoming:flow8, targetRef:scripttask1)]::WayPoint::1</attached>
+          <offset_x>8</offset_x>
+          <offset_y>8</offset_y>
+          <placement>TOP</placement>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[IncomingFlow : (incoming:flow8, targetRef:scripttask1)]::target::multiplicity"
+        sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+        <name>*</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <attached>[IncomingFlow : (incoming:flow8, targetRef:scripttask1)]::WayPoint::1</attached>
+          <offset_x>8</offset_x>
+          <offset_y>8</offset_y>
+          <placement>BOTTOM</placement>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[IncomingFlow : (incoming:flow8, targetRef:scripttask1)]::source::rolename"
+        sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+        <name>targetRef</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <attached>[IncomingFlow : (incoming:flow8, targetRef:scripttask1)]::WayPoint::0</attached>
+          <offset_x>8</offset_x>
+          <offset_y>8</offset_y>
+          <placement>TOP</placement>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[IncomingFlow : (incoming:flow8, targetRef:scripttask1)]::source::multiplicity"
+        sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+        <name>1</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <attached>[IncomingFlow : (incoming:flow8, targetRef:scripttask1)]::WayPoint::0</attached>
+          <offset_x>8</offset_x>
+          <offset_y>8</offset_y>
+          <placement>BOTTOM</placement>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[IncomingFlow : (incoming:flow8, targetRef:scripttask1)]::AssociationName"
+        sizeCalculated="true" type="associationName" userDefined="false" visible="true">
+        <name>IncomingFlow</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyInBetween">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <offsetX>0.0</offsetX>
+          <offsetY>-10.0</offsetY>
+          <related length="2">
+            <related0>[IncomingFlow : (incoming:flow8, targetRef:scripttask1)]::WayPoint::0</related0>
+            <related1>[IncomingFlow : (incoming:flow8, targetRef:scripttask1)]::WayPoint::1</related1>
+          </related>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+    </properties>
+    <waypoints>
+      <edgeproperty
+        id="[IncomingFlow : (incoming:flow8, targetRef:scripttask1)]::WayPoint::0"
+        sizeCalculated="true" type="WayPoint" userDefined="false" visible="true">
+        <name>0</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyAttachedIntersection">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+        </strategy>
+        <id>0</id>
+        <specialid>1</specialid>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[IncomingFlow : (incoming:flow8, targetRef:scripttask1)]::WayPoint::1"
+        sizeCalculated="true" type="WayPoint" userDefined="false" visible="true">
+        <name>1</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyAttachedIntersection">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+        </strategy>
+        <id>1</id>
+        <specialid>2</specialid>
+        <hidden>false</hidden>
+      </edgeproperty>
+    </waypoints>
+    <hidden>false</hidden>
+    <linkValue>[IncomingFlow : (incoming:flow8, targetRef:scripttask1)]</linkValue>
+  </edge>
+  <edge type="BinaryEdge">
+    <source>endevent1</source>
+    <target>flow9</target>
+    <name>IncomingFlow</name>
+    <properties>
+      <edgeproperty
+        id="[IncomingFlow : (incoming:flow9, targetRef:endevent1)]::target::multiplicity"
+        sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+        <name>*</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <attached>[IncomingFlow : (incoming:flow9, targetRef:endevent1)]::WayPoint::1</attached>
+          <offset_x>8</offset_x>
+          <offset_y>8</offset_y>
+          <placement>BOTTOM</placement>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[IncomingFlow : (incoming:flow9, targetRef:endevent1)]::target::rolename"
+        sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+        <name>incoming</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <attached>[IncomingFlow : (incoming:flow9, targetRef:endevent1)]::WayPoint::1</attached>
+          <offset_x>8</offset_x>
+          <offset_y>8</offset_y>
+          <placement>TOP</placement>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[IncomingFlow : (incoming:flow9, targetRef:endevent1)]::source::multiplicity"
+        sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+        <name>1</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <attached>[IncomingFlow : (incoming:flow9, targetRef:endevent1)]::WayPoint::0</attached>
+          <offset_x>8</offset_x>
+          <offset_y>8</offset_y>
+          <placement>BOTTOM</placement>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[IncomingFlow : (incoming:flow9, targetRef:endevent1)]::source::rolename"
+        sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+        <name>targetRef</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <attached>[IncomingFlow : (incoming:flow9, targetRef:endevent1)]::WayPoint::0</attached>
+          <offset_x>8</offset_x>
+          <offset_y>8</offset_y>
+          <placement>TOP</placement>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[IncomingFlow : (incoming:flow9, targetRef:endevent1)]::AssociationName"
+        sizeCalculated="true" type="associationName" userDefined="false" visible="true">
+        <name>IncomingFlow</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyInBetween">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <offsetX>0.0</offsetX>
+          <offsetY>-10.0</offsetY>
+          <related length="2">
+            <related0>[IncomingFlow : (incoming:flow9, targetRef:endevent1)]::WayPoint::0</related0>
+            <related1>[IncomingFlow : (incoming:flow9, targetRef:endevent1)]::WayPoint::1</related1>
+          </related>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+    </properties>
+    <waypoints>
+      <edgeproperty
+        id="[IncomingFlow : (incoming:flow9, targetRef:endevent1)]::WayPoint::0"
+        sizeCalculated="true" type="WayPoint" userDefined="false" visible="true">
+        <name>0</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyAttachedIntersection">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+        </strategy>
+        <id>0</id>
+        <specialid>1</specialid>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[IncomingFlow : (incoming:flow9, targetRef:endevent1)]::WayPoint::1"
+        sizeCalculated="true" type="WayPoint" userDefined="false" visible="true">
+        <name>1</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyAttachedIntersection">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+        </strategy>
+        <id>1</id>
+        <specialid>2</specialid>
+        <hidden>false</hidden>
+      </edgeproperty>
+    </waypoints>
+    <hidden>false</hidden>
+    <linkValue>[IncomingFlow : (incoming:flow9, targetRef:endevent1)]</linkValue>
+  </edge>
+  <edge type="BinaryEdge">
+    <source>startevent1</source>
+    <target>flow6</target>
+    <name>OutgoingFlow</name>
+    <properties>
+      <edgeproperty
+        id="[OutgoingFlow : (outgoing:flow6, sourceRef:startevent1)]::target::multiplicity"
+        sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+        <name>*</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <attached>[OutgoingFlow : (outgoing:flow6, sourceRef:startevent1)]::WayPoint::1</attached>
+          <offset_x>8</offset_x>
+          <offset_y>8</offset_y>
+          <placement>BOTTOM</placement>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[OutgoingFlow : (outgoing:flow6, sourceRef:startevent1)]::target::rolename"
+        sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+        <name>outgoing</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <attached>[OutgoingFlow : (outgoing:flow6, sourceRef:startevent1)]::WayPoint::1</attached>
+          <offset_x>8</offset_x>
+          <offset_y>8</offset_y>
+          <placement>TOP</placement>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[OutgoingFlow : (outgoing:flow6, sourceRef:startevent1)]::source::rolename"
+        sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+        <name>sourceRef</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <attached>[OutgoingFlow : (outgoing:flow6, sourceRef:startevent1)]::WayPoint::0</attached>
+          <offset_x>8</offset_x>
+          <offset_y>8</offset_y>
+          <placement>TOP</placement>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[OutgoingFlow : (outgoing:flow6, sourceRef:startevent1)]::source::multiplicity"
+        sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+        <name>1</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <attached>[OutgoingFlow : (outgoing:flow6, sourceRef:startevent1)]::WayPoint::0</attached>
+          <offset_x>8</offset_x>
+          <offset_y>8</offset_y>
+          <placement>BOTTOM</placement>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[OutgoingFlow : (outgoing:flow6, sourceRef:startevent1)]::AssociationName"
+        sizeCalculated="true" type="associationName" userDefined="false" visible="true">
+        <name>OutgoingFlow</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyInBetween">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <offsetX>0.0</offsetX>
+          <offsetY>-10.0</offsetY>
+          <related length="2">
+            <related0>[OutgoingFlow : (outgoing:flow6, sourceRef:startevent1)]::WayPoint::0</related0>
+            <related1>[OutgoingFlow : (outgoing:flow6, sourceRef:startevent1)]::WayPoint::1</related1>
+          </related>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+    </properties>
+    <waypoints>
+      <edgeproperty
+        id="[OutgoingFlow : (outgoing:flow6, sourceRef:startevent1)]::WayPoint::0"
+        sizeCalculated="true" type="WayPoint" userDefined="false" visible="true">
+        <name>0</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyAttachedIntersection">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+        </strategy>
+        <id>0</id>
+        <specialid>1</specialid>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[OutgoingFlow : (outgoing:flow6, sourceRef:startevent1)]::WayPoint::1"
+        sizeCalculated="true" type="WayPoint" userDefined="false" visible="true">
+        <name>1</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyAttachedIntersection">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+        </strategy>
+        <id>1</id>
+        <specialid>2</specialid>
+        <hidden>false</hidden>
+      </edgeproperty>
+    </waypoints>
+    <hidden>false</hidden>
+    <linkValue>[OutgoingFlow : (outgoing:flow6, sourceRef:startevent1)]</linkValue>
+  </edge>
+  <edge type="BinaryEdge">
+    <source>servicetask1</source>
+    <target>flow1</target>
+    <name>OutgoingFlow</name>
+    <properties>
+      <edgeproperty
+        id="[OutgoingFlow : (outgoing:flow1, sourceRef:servicetask1)]::target::rolename"
+        sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+        <name>outgoing</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <attached>[OutgoingFlow : (outgoing:flow1, sourceRef:servicetask1)]::WayPoint::1</attached>
+          <offset_x>8</offset_x>
+          <offset_y>8</offset_y>
+          <placement>TOP</placement>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[OutgoingFlow : (outgoing:flow1, sourceRef:servicetask1)]::target::multiplicity"
+        sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+        <name>*</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <attached>[OutgoingFlow : (outgoing:flow1, sourceRef:servicetask1)]::WayPoint::1</attached>
+          <offset_x>8</offset_x>
+          <offset_y>8</offset_y>
+          <placement>BOTTOM</placement>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[OutgoingFlow : (outgoing:flow1, sourceRef:servicetask1)]::source::multiplicity"
+        sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+        <name>1</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <attached>[OutgoingFlow : (outgoing:flow1, sourceRef:servicetask1)]::WayPoint::0</attached>
+          <offset_x>8</offset_x>
+          <offset_y>8</offset_y>
+          <placement>BOTTOM</placement>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[OutgoingFlow : (outgoing:flow1, sourceRef:servicetask1)]::source::rolename"
+        sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+        <name>sourceRef</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <attached>[OutgoingFlow : (outgoing:flow1, sourceRef:servicetask1)]::WayPoint::0</attached>
+          <offset_x>8</offset_x>
+          <offset_y>8</offset_y>
+          <placement>TOP</placement>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[OutgoingFlow : (outgoing:flow1, sourceRef:servicetask1)]::AssociationName"
+        sizeCalculated="true" type="associationName" userDefined="false" visible="true">
+        <name>OutgoingFlow</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyInBetween">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <offsetX>0.0</offsetX>
+          <offsetY>-10.0</offsetY>
+          <related length="2">
+            <related0>[OutgoingFlow : (outgoing:flow1, sourceRef:servicetask1)]::WayPoint::0</related0>
+            <related1>[OutgoingFlow : (outgoing:flow1, sourceRef:servicetask1)]::WayPoint::1</related1>
+          </related>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+    </properties>
+    <waypoints>
+      <edgeproperty
+        id="[OutgoingFlow : (outgoing:flow1, sourceRef:servicetask1)]::WayPoint::0"
+        sizeCalculated="true" type="WayPoint" userDefined="false" visible="true">
+        <name>0</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyAttachedIntersection">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+        </strategy>
+        <id>0</id>
+        <specialid>1</specialid>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[OutgoingFlow : (outgoing:flow1, sourceRef:servicetask1)]::WayPoint::1"
+        sizeCalculated="true" type="WayPoint" userDefined="false" visible="true">
+        <name>1</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyAttachedIntersection">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+        </strategy>
+        <id>1</id>
+        <specialid>2</specialid>
+        <hidden>false</hidden>
+      </edgeproperty>
+    </waypoints>
+    <hidden>false</hidden>
+    <linkValue>[OutgoingFlow : (outgoing:flow1, sourceRef:servicetask1)]</linkValue>
+  </edge>
+  <edge type="BinaryEdge">
+    <source>manualtask1</source>
+    <target>flow1</target>
+    <name>IncomingFlow</name>
+    <properties>
+      <edgeproperty
+        id="[IncomingFlow : (incoming:flow1, targetRef:manualtask1)]::target::rolename"
+        sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+        <name>incoming</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <attached>[IncomingFlow : (incoming:flow1, targetRef:manualtask1)]::WayPoint::1</attached>
+          <offset_x>8</offset_x>
+          <offset_y>8</offset_y>
+          <placement>TOP</placement>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[IncomingFlow : (incoming:flow1, targetRef:manualtask1)]::target::multiplicity"
+        sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+        <name>*</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <attached>[IncomingFlow : (incoming:flow1, targetRef:manualtask1)]::WayPoint::1</attached>
+          <offset_x>8</offset_x>
+          <offset_y>8</offset_y>
+          <placement>BOTTOM</placement>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[IncomingFlow : (incoming:flow1, targetRef:manualtask1)]::source::rolename"
+        sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+        <name>targetRef</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <attached>[IncomingFlow : (incoming:flow1, targetRef:manualtask1)]::WayPoint::0</attached>
+          <offset_x>8</offset_x>
+          <offset_y>8</offset_y>
+          <placement>TOP</placement>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[IncomingFlow : (incoming:flow1, targetRef:manualtask1)]::source::multiplicity"
+        sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+        <name>1</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <attached>[IncomingFlow : (incoming:flow1, targetRef:manualtask1)]::WayPoint::0</attached>
+          <offset_x>8</offset_x>
+          <offset_y>8</offset_y>
+          <placement>BOTTOM</placement>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[IncomingFlow : (incoming:flow1, targetRef:manualtask1)]::AssociationName"
+        sizeCalculated="true" type="associationName" userDefined="false" visible="true">
+        <name>IncomingFlow</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyInBetween">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <offsetX>0.0</offsetX>
+          <offsetY>-10.0</offsetY>
+          <related length="2">
+            <related0>[IncomingFlow : (incoming:flow1, targetRef:manualtask1)]::WayPoint::0</related0>
+            <related1>[IncomingFlow : (incoming:flow1, targetRef:manualtask1)]::WayPoint::1</related1>
+          </related>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+    </properties>
+    <waypoints>
+      <edgeproperty
+        id="[IncomingFlow : (incoming:flow1, targetRef:manualtask1)]::WayPoint::0"
+        sizeCalculated="true" type="WayPoint" userDefined="false" visible="true">
+        <name>0</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyAttachedIntersection">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+        </strategy>
+        <id>0</id>
+        <specialid>1</specialid>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[IncomingFlow : (incoming:flow1, targetRef:manualtask1)]::WayPoint::1"
+        sizeCalculated="true" type="WayPoint" userDefined="false" visible="true">
+        <name>1</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyAttachedIntersection">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+        </strategy>
+        <id>1</id>
+        <specialid>2</specialid>
+        <hidden>false</hidden>
+      </edgeproperty>
+    </waypoints>
+    <hidden>false</hidden>
+    <linkValue>[IncomingFlow : (incoming:flow1, targetRef:manualtask1)]</linkValue>
+  </edge>
+  <edge type="BinaryEdge">
+    <source>servicetask1</source>
+    <target>flow6</target>
+    <name>IncomingFlow</name>
+    <properties>
+      <edgeproperty
+        id="[IncomingFlow : (incoming:flow6, targetRef:servicetask1)]::target::rolename"
+        sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+        <name>incoming</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <attached>[IncomingFlow : (incoming:flow6, targetRef:servicetask1)]::WayPoint::1</attached>
+          <offset_x>8</offset_x>
+          <offset_y>8</offset_y>
+          <placement>TOP</placement>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[IncomingFlow : (incoming:flow6, targetRef:servicetask1)]::target::multiplicity"
+        sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+        <name>*</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <attached>[IncomingFlow : (incoming:flow6, targetRef:servicetask1)]::WayPoint::1</attached>
+          <offset_x>8</offset_x>
+          <offset_y>8</offset_y>
+          <placement>BOTTOM</placement>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[IncomingFlow : (incoming:flow6, targetRef:servicetask1)]::source::multiplicity"
+        sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+        <name>1</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <attached>[IncomingFlow : (incoming:flow6, targetRef:servicetask1)]::WayPoint::0</attached>
+          <offset_x>8</offset_x>
+          <offset_y>8</offset_y>
+          <placement>BOTTOM</placement>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[IncomingFlow : (incoming:flow6, targetRef:servicetask1)]::source::rolename"
+        sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+        <name>targetRef</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <attached>[IncomingFlow : (incoming:flow6, targetRef:servicetask1)]::WayPoint::0</attached>
+          <offset_x>8</offset_x>
+          <offset_y>8</offset_y>
+          <placement>TOP</placement>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[IncomingFlow : (incoming:flow6, targetRef:servicetask1)]::AssociationName"
+        sizeCalculated="true" type="associationName" userDefined="false" visible="true">
+        <name>IncomingFlow</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyInBetween">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+          <offsetX>0.0</offsetX>
+          <offsetY>-10.0</offsetY>
+          <related length="2">
+            <related0>[IncomingFlow : (incoming:flow6, targetRef:servicetask1)]::WayPoint::0</related0>
+            <related1>[IncomingFlow : (incoming:flow6, targetRef:servicetask1)]::WayPoint::1</related1>
+          </related>
+        </strategy>
+        <hidden>false</hidden>
+      </edgeproperty>
+    </properties>
+    <waypoints>
+      <edgeproperty
+        id="[IncomingFlow : (incoming:flow6, targetRef:servicetask1)]::WayPoint::0"
+        sizeCalculated="true" type="WayPoint" userDefined="false" visible="true">
+        <name>0</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyAttachedIntersection">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+        </strategy>
+        <id>0</id>
+        <specialid>1</specialid>
+        <hidden>false</hidden>
+      </edgeproperty>
+      <edgeproperty
+        id="[IncomingFlow : (incoming:flow6, targetRef:servicetask1)]::WayPoint::1"
+        sizeCalculated="true" type="WayPoint" userDefined="false" visible="true">
+        <name>1</name>
+        <strategy type="org.uet.bpmnchecker.views.diagrams.elements.positioning.StrategyAttachedIntersection">
+          <userOffsetX>0.0</userOffsetX>
+          <userOffsetY>0.0</userOffsetY>
+        </strategy>
+        <id>1</id>
+        <specialid>2</specialid>
+        <hidden>false</hidden>
+      </edgeproperty>
+    </waypoints>
+    <hidden>false</hidden>
+    <linkValue>[IncomingFlow : (incoming:flow6, targetRef:servicetask1)]</linkValue>
+  </edge>
+</diagram_Layout>
