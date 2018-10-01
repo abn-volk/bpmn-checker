@@ -180,7 +180,7 @@ public class ParserWindow extends JDialog {
 		FlowNode source = flow.getSource();
 		FlowNode target = flow.getTarget();
 		try {
-			fSystemApi.createLink("IncomingFlow", new String[] {target.getId(), flow.getId()});
+			fSystemApi.createLink("IncomingFlow", new String[] {flow.getId(), target.getId()});
 			fSystemApi.createLink("OutgoingFlow", new String[] {source.getId(), flow.getId()});
 		}
 		catch (UseApiException e) {
